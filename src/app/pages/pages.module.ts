@@ -12,6 +12,7 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     Grafica1Component,
     AccountSettingsComponent,
     PagesComponent,
+    RxjsComponent,
   ],
   exports: [
     DashboardComponent,
